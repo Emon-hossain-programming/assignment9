@@ -16,7 +16,7 @@ const MyProfile = () => {
     e.preventDefault();
 
     if (!name || !photo) {
-      toast.error("Please fill all fields");
+      toast.error("Please fill all fields ");
       return;
     }
     //update name and profile 

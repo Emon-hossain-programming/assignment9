@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
 
                 {/* Service Cards Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
                     {
                         UpdateData.map(service => (
                             <div key={service.serviceId} className="card bg-base-100 shadow-xl border border-blue-50 transition-transform hover:scale-105">
