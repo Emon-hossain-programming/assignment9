@@ -44,7 +44,7 @@ const ServiceDetails = () => {
         <div className="flex flex-col md:flex-row gap-6 mb-8">
           <img
             src={finalData.image || "https://via.placeholder.com/400x250"}
-            alt={finalData.title}
+            alt={finalData.serviceNam}
             className="w-full md:w-1/2 rounded-2xl shadow-lg"
           />
           <div className="flex-1">

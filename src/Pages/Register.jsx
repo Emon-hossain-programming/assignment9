@@ -4,7 +4,7 @@ import { AuthContext } from '../AuthProvaider/AuthContext';
 import { toast } from 'react-toastify';
 
 const Register = () => {
-    const {handleRegister,updateUser, setUser,googleSignIn}=useContext(AuthContext)
+    const {handleRegister,updateUser,setUser,googleSignIn}=useContext(AuthContext)
     const [nameError, setNameError] = useState("");
      const navigate=useNavigate()
     
@@ -34,14 +34,15 @@ if (!regex.test(password)) {
             const result=res.user
             updateUser({ displayName: name, photoURL: photo })
             .then(()=>{
+                console.log(result);
                 setUser({...result,displayName: name, photoURL: photo})
-                toast.success("update successfull")
+                 toast.success('Register Successfull')
                 navigate('/')
                 
             }).catch((err)=>{
                toast.error(err.code)
             })
-            toast.success('Register Successfull')
+           
             
         }).catch((err)=>{
             console.log(err.message);
@@ -88,9 +89,6 @@ if (!regex.test(password)) {
           <input type="email" className="input rounded-2xl" placeholder="Email" name='email'/>
           {/* password */}
           <label className="label">Password</label>
-          {
-            setNameError && <p className='text-red-500 font-bold'>{setNameError}</p>
-          }
           <input type="password" className="input rounded-2xl" placeholder="Password" name='password'/>
           {
             nameError && <p className='font-bold text-red-500'>{nameError}</p>
