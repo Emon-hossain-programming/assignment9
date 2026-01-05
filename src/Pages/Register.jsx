@@ -96,7 +96,7 @@ if (!regex.test(password)) {
             nameError && <p className='font-bold text-red-500'>{nameError}</p>
           }
           <button
-           className="btn btn-neutral mt-4 bg-linear-to-r from-blue-500 via-indigo-500 to-purple-500">
+           className="btn btn-neutral mt-4 bg-linear-to-r from-blue-500 via-indigo-500 to-purple-500 ">
             Register
             </button>
             {/* Google */}
