@@ -12,7 +12,7 @@ const Services = () => {
                                     <img src={service.image} alt={service.serviceName} className="rounded-xl h-52 w-full object-cover" />
                                 </figure>
                                 <div className="card-body">
-                                    <div className="flex justify-between items-start">
+                                    <div className="flex justify-between items-start ">
                                         <h2 className="card-title text-xl font-bold">{service.serviceName}</h2>
                                         <div className="badge badge-secondary">★ {service.rating}</div>
                                     </div>
