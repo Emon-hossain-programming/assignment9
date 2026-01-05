@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://images.pexels.com/photos/16652417/pexels-photo-16652417/free-photo-of-dog-wearing-jacket.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo to prevent dry skin.",
+    "image": "https://images.pexels.com/photos/3333446/pexels-photo-3333446.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Heated Bed Installation",
+    "providerName": "Comfy Home Services",
+    "providerEmail": "support@comfyhome.com",
+    "price": 45,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Safe installation of temperature-controlled heated beds to keep your pets warm during chilly nights.",
+    "image": "https://images.pexels.com/photos/1564506/pexels-photo-1564506.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Home Comfort"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Winter Nutrition & Diet Plan",
+    "providerName": "Healthy Tails Nutrition",
+    "providerEmail": "nutrition@healthytails.com",
+    "price": 20,
+    "rating": 4.9,
+    "slotsAvailable": 10,
+    "description": "Expert advice on high-energy winter diets to help pets maintain body heat and stay healthy.",
+    "image": "https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Health"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Indoor Winter Play Sessions",
+    "providerName": "ActivePaws Center",
+    "providerEmail": "play@activepaws.com",
+    "price": 15,
+    "rating": 4.6,
+    "slotsAvailable": 8,
+    "description": "Supervised indoor exercise and games to keep your pet active when it's too cold to play outside.",
+    "image": "https://images.pexels.com/photos/134062/pexels-photo-134062.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Exercise"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Paw Protection Bootie Setup",
+    "providerName": "SafeWalk Gear",
+    "providerEmail": "sales@safewalk.com",
+    "price": 18,
+    "rating": 4.5,
+    "slotsAvailable": 6,
+    "description": "Trial and fitting of winter booties to protect paws from ice, salt, and freezing surfaces.",
+    "image": "https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Safety"
+  }
+]
